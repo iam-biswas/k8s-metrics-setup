@@ -26,6 +26,7 @@ kubectl top po <pod_name> -n <namespace>
 
 # Issues
 If you see that the Metrics API Pod is not starting up and you are getting the below error, please follow this [blog] to fix it.  
+
 `tls: failed to verify certificate: x509: cannot validate certificate for 192.168.1.131 because it doesn't contain any IP SANs" node="accserver"`  
 
 [blog]: https://anurag.acceleratron.in/blogs/kubernetes-metrics-troubleshoot.html
